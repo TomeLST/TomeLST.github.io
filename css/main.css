@@ -1831,7 +1831,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff3d;
+  background: #e70abf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3133,6 +3133,17 @@ body {
   font-size: 1em;
   line-height: 2;
 }
+/*body {
+  background: url(/images/background1.jpg);  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: var(--text-color);
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1em;
+  line-height: 2;
+}*/
 .content {
   padding-top: 15px;
   opacity: 0.8;
