@@ -3,7 +3,7 @@
   <entry>
     <title>My timeline</title>
     <url>/2022/01/18/hello-world/</url>
-    <content><![CDATA[<p>Here is LEE.Welcome to my blog !</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Here is LEE.Welcome to my blog !</p>
 <span id="more"></span>
 
 <p>以下为测试内容！ 记录实现阅读全文的方法–</p>
