@@ -5,10 +5,13 @@
     <url>/2022/01/18/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Here is Lee. Welcome to my blog !</p>
 <span id="more"></span>
-
-
-
-
+<p> 经过几天的折腾，终于是搭建好了一个个人博客。马上要过年了，希望未来越来越好。</p>
 ]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+      <tags>
+        <tag>一些折腾</tag>
+      </tags>
   </entry>
 </search>
