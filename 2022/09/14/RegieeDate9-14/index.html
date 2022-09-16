@@ -94,7 +94,7 @@
 <meta property="og:description" content="今日开发情况如下：">
 <meta property="og:locale">
 <meta property="article:published_time" content="2022-09-14T13:30:54.000Z">
-<meta property="article:modified_time" content="2022-09-15T12:53:07.551Z">
+<meta property="article:modified_time" content="2022-09-16T11:49:00.791Z">
 <meta property="article:author" content="Lee">
 <meta name="twitter:card" content="summary">
 
@@ -442,13 +442,18 @@
         <p>今日开发情况如下：</p>
 <span id="more"></span>
 
+
 <h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
 <li>实现后台系统登录功能</li>
 <li>实现后台系统退出功能</li>
 <li>后台系统登录功能的优化（即对访问路径的处理）</li>
-<li>增加用户的功能<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3></li>
+<li>增加用户的功能</li>
+</ul>
+<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
 <li>导入web文件时由于并未一开始导入/source/static导致页面404</li>
-<li>对访问页面进行处理时本意是对用户非法进行访问主页面进行拦截，如果未登陆就访问主页面让其跳转至登录页面<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3></li>
+<li>对访问页面进行处理时本意是对用户非法进行访问主页面进行拦截，如果未登陆就访问主页面让其跳转至登录页面</li>
+</ul>
+<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
 <li>将web文件放在/static下，同时修改请求路径<a target="_blank" rel="noopener" href="http://localhost:8080/backend/...%E6%9D%A5%E8%BF%9B%E8%A1%8C%E8%AE%BF%E9%97%AE">http://localhost:8080/backend/...来进行访问</a> 本问题已解决</li>
 <li>通过编写一个自定义类继承Filter来对请求的路径进行检查与拦截， servletResponse.getWriter().write(JSON.toJSONString(Result.error(“NOTLOGIN”))) 但此段代码会导致运行出现错误  Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 本问题未解决</li>
 </ul>
@@ -598,7 +603,7 @@ var jiathis_config={
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -689,7 +694,7 @@ var jiathis_config={
     
       <span class="post-meta-item-text">小站总字数&#58;</span>
     
-    <span title="小站总字数">695</span>
+    <span title="小站总字数">892</span>
   
 </div>
 

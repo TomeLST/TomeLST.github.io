@@ -6,11 +6,16 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近秋招恰逢本学期进行实训课,遂按照老师要求着手开发一个外卖管理平台，命名位Regiee外卖，同时加深自己对于ssm框架和mybatisplus以及springboot的理解。</p>
 <span id="more"></span>
 
+
 <h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
 <li>数据库的搭建</li>
 <li>web页面的创建</li>
-<li>idea环境的配置<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3></li>
-<li>导入依赖时出现依赖冲突<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3></li>
+<li>idea环境的配置</li>
+</ul>
+<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
+<li>导入依赖时出现依赖冲突</li>
+</ul>
+<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
 <li>删除冲突依赖 选择适合的依赖版本 本问题已解决</li>
 </ul>
 ]]></content>
@@ -24,15 +29,74 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今日开发情况如下：</p>
 <span id="more"></span>
 
+
 <h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
 <li>实现后台系统登录功能</li>
 <li>实现后台系统退出功能</li>
 <li>后台系统登录功能的优化（即对访问路径的处理）</li>
-<li>增加用户的功能<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3></li>
+<li>增加用户的功能</li>
+</ul>
+<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
 <li>导入web文件时由于并未一开始导入/source/static导致页面404</li>
-<li>对访问页面进行处理时本意是对用户非法进行访问主页面进行拦截，如果未登陆就访问主页面让其跳转至登录页面<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3></li>
+<li>对访问页面进行处理时本意是对用户非法进行访问主页面进行拦截，如果未登陆就访问主页面让其跳转至登录页面</li>
+</ul>
+<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
 <li>将web文件放在/static下，同时修改请求路径<a href="http://localhost:8080/backend/...%E6%9D%A5%E8%BF%9B%E8%A1%8C%E8%AE%BF%E9%97%AE">http://localhost:8080/backend/...来进行访问</a> 本问题已解决</li>
 <li>通过编写一个自定义类继承Filter来对请求的路径进行检查与拦截， servletResponse.getWriter().write(JSON.toJSONString(Result.error(“NOTLOGIN”))) 但此段代码会导致运行出现错误  Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 本问题未解决</li>
+</ul>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>项目开发Day2</title>
+    <url>/2022/09/15/RegieeDate9-15/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今日开发情况如下：</p>
+<span id="more"></span>
+
+
+<h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
+<li>完善了增加员工功能（当员工注册时数据库已存在同一用户名则禁止注册）</li>
+<li>实现员工信息分页查询功能</li>
+<li>实现对员工状态进行设置的功能</li>
+<li>实现编辑员工信息的功能</li>
+<li>对公共字段填充的功能</li>
+</ul>
+<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
+<li>分页时设置不同的页数和页面大小浏览器却不改变</li>
+<li>前端代码阅读理解出现歧义 调试时未搞懂页面返回的参数</li>
+<li>编辑员工信息时未注意到不同功能的代码复用</li>
+</ul>
+<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
+<li>分页问题通过清楚浏览器缓存以及重启idea解决</li>
+<li>通过阅读源代码 调试前端页面信息的方式理解了接口的请求参数以及返回参数并重新进行数据封装</li>
+</ul>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>项目开发Day3</title>
+    <url>/2022/09/16/RegieeDate9-16/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今日开发情况如下：</p>
+<span id="more"></span>
+
+
+<h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
+<li>对公共字段填充功能进行优化，在对某些字段填充时动态获取当前用户id</li>
+<li>至此员工增添修改查询的功能模块已经完成</li>
+<li>对菜品分类和套餐分类进行相关环境和所需类的搭建</li>
+<li>菜品类型分页展示</li>
+<li>菜品类型的删除功能（注意有菜品可能关联到当前的菜品类型，因此需要进行判断）</li>
+<li>分类信息的修改功能</li>
+</ul>
+<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
+<li>粗心大意写错路径对应的参数</li>
+</ul>
+<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
+<li>通过断点调试debug找到问题并解决</li>
 </ul>
 ]]></content>
       <categories>
@@ -45,29 +109,6 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Here is Lee. Welcome to my blog !</p>
 <span id="more"></span>
 <p> 经过几天的折腾，终于是搭建好了一个个人博客。马上要过年了，希望未来越来越好。</p>
-]]></content>
-      <categories>
-        <category>日志</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>项目开发Day2</title>
-    <url>/2022/09/15/RegieeDate9-15/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今日开发情况如下：</p>
-<span id="more"></span>
-
-<h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
-<li>完善了增加员工功能（当员工注册时数据库已存在同一用户名则禁止注册）</li>
-<li>实现员工信息分页查询功能</li>
-<li>实现对员工状态进行设置的功能</li>
-<li>实现编辑员工信息的功能</li>
-<li>对公共字段填充的功能<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3></li>
-<li>分页时设置不同的页数和页面大小浏览器却不改变</li>
-<li>前端代码阅读理解出现歧义 调试时未搞懂页面返回的参数</li>
-<li>编辑员工信息时未注意到不同功能的代码复用<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3></li>
-<li>分页问题通过清楚浏览器缓存以及重启idea解决</li>
-<li>通过阅读源代码 调试前端页面信息的方式理解了接口的请求参数以及返回参数并重新进行数据封装</li>
-</ul>
 ]]></content>
       <categories>
         <category>日志</category>
