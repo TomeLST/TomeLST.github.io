@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>项目背景</title>
+    <url>/2022/09/13/RegieeDate9-13/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近秋招恰逢本学期进行实训课,遂按照老师要求着手开发一个外卖管理平台，命名位Regiee外卖，同时加深自己对于ssm框架和mybatisplus以及springboot的理解。</p>
+<span id="more"></span>
+
+
+<h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
+<li>数据库的搭建</li>
+<li>web页面的创建</li>
+<li>idea环境的配置</li>
+</ul>
+<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
+<li>导入依赖时出现依赖冲突</li>
+</ul>
+<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
+<li>删除冲突依赖 选择适合的依赖版本 本问题已解决</li>
+</ul>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+  </entry>
+  <entry>
     <title>项目开发Day4</title>
     <url>/2022/09/17/RegieeData9-17/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今日开发情况如下：</p>
@@ -31,29 +54,6 @@
 <li>通过DTO来创建原始类的派生类来实现对返回数据的重新封装</li>
 <li>在Service层开启事务 同时在主程序启动事务管理器</li>
 <li>通过BeanUtils.copyProperties(pageInfo, pageallInfo, “records”);来对原始页面的除当前页面的内容信息进行了复制，随后通过records.stream().map((item) -&gt;… 来实现对records信息的获取，将菜品的id信息获取到从而获得菜品name，将records返回给Dto类。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>日志</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>项目背景</title>
-    <url>/2022/09/13/RegieeDate9-13/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近秋招恰逢本学期进行实训课,遂按照老师要求着手开发一个外卖管理平台，命名位Regiee外卖，同时加深自己对于ssm框架和mybatisplus以及springboot的理解。</p>
-<span id="more"></span>
-
-
-<h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
-<li>数据库的搭建</li>
-<li>web页面的创建</li>
-<li>idea环境的配置</li>
-</ul>
-<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
-<li>导入依赖时出现依赖冲突</li>
-</ul>
-<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
-<li>删除冲突依赖 选择适合的依赖版本 本问题已解决</li>
 </ul>
 ]]></content>
       <categories>
@@ -141,6 +141,36 @@
 </ul>
 <h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
 <li>通过断点调试debug找到问题并解决</li>
+</ul>
+]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>项目开发Day5</title>
+    <url>/2022/09/18/RegieeDate9-18/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今日开发情况如下：</p>
+<span id="more"></span>
+
+
+<h3 id="Keep-今日完成了哪些工作"><a href="#Keep-今日完成了哪些工作" class="headerlink" title="Keep 今日完成了哪些工作"></a>Keep 今日完成了哪些工作</h3><ul>
+<li>在修改菜品信息页面进行菜品信息回显</li>
+<li>完成了修改菜品信息的功能</li>
+<li>对套餐类进行各个层的框架搭建</li>
+<li>新增套餐页面对菜品类型以及菜品信息的获取</li>
+<li>选择套餐内包含的菜品信息时对菜品的模糊查询</li>
+</ul>
+<h3 id="Problem-今日遇到了哪些问题"><a href="#Problem-今日遇到了哪些问题" class="headerlink" title="Problem 今日遇到了哪些问题"></a>Problem 今日遇到了哪些问题</h3><ul>
+<li>由于在新增套餐功能需要获取菜品信息的方法和对菜品模糊查询的方法用的相同接口，但参数不一样。导致由于逻辑不是很完整在模糊查询时返回了全部的菜品结果集。</li>
+<li>获取菜品信息时调试发现页面未展示所有应展示的数据。</li>
+</ul>
+<h3 id="Try-对于问题做了何种尝试-以及是否解决"><a href="#Try-对于问题做了何种尝试-以及是否解决" class="headerlink" title="Try 对于问题做了何种尝试 以及是否解决"></a>Try 对于问题做了何种尝试 以及是否解决</h3><ul>
+<li>通过断点调试debug发现了逻辑漏洞，二次完善代码通过多次查询条件提高健壮性。</li>
+<li>原有的实体类不能完全封装返回的数据，因此使用创建的dto类重新对返回数据进行封装<ul>
+<li>BeanUtils.copyProperties(pageInfo,pageInfoAll,”records”)来对属性进行拷贝</li>
+</ul>
+</li>
 </ul>
 ]]></content>
       <categories>
